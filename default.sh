@@ -15,7 +15,7 @@ PIP_PACKAGES=(
 )
 
 CHECKPOINT_MODELS=(
-    "https://civitai.com/api/download/models/1464918?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+ #   "https://civitai.com/api/download/models/1464918?type=Model&format=SafeTensor&size=pruned&fp=fp16"
 )
 
 UNET_MODELS=(
@@ -32,6 +32,9 @@ ESRGAN_MODELS=(
 
 CONTROLNET_MODELS=(
 )
+
+pip install gdown
+gdown https://drive.google.com/file/d/1683RFh-53u4dlRXTXyUzXBdH1oNMoTwF/view?usp=drive_link -O "${A1111_DIR}/models/Stable-diffusion/cyberrelistic.safetensors"
 
 ### DO NOT EDIT BELOW HERE UNLESS YOU KNOW WHAT YOU ARE DOING ###
 
