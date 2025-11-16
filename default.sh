@@ -34,7 +34,7 @@ CONTROLNET_MODELS=(
 )
 
 pip install gdown
-gdown https://drive.google.com/uc?id=1683RFh-53u4dlRXTXyUzXBdH1oNMoTwF -O "${A1111_DIR}/models/Stable-diffusion/"
+gdown https://drive.google.com/uc?id=1683RFh-53u4dlRXTXyUzXBdH1oNMoTwF
 
 ### DO NOT EDIT BELOW HERE UNLESS YOU KNOW WHAT YOU ARE DOING ###
 
